@@ -1,0 +1,145 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-06-08T21:31:44.620Z",
+    "end": "2020-06-08T21:32:46.649Z",
+    "duration": 62029,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "bc20ef1a-8c67-4e10-b28c-988304b71216",
+      "title": "",
+      "fullFile": "cypress\\integration\\test_cases\\SearchGenres.js",
+      "file": "cypress\\integration\\test_cases\\SearchGenres.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9bc92211-5d81-45c2-817a-fd653b8abd77",
+          "title": "Search_By_Genres",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Search by Arabic genre",
+              "fullTitle": "Search_By_Genres Search by Arabic genre",
+              "timedOut": null,
+              "duration": 29142,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains('Search').click();\ncy.contains('Arabic').click();",
+              "err": {},
+              "uuid": "f34ebd1e-272e-414f-904b-d89b8ae40a08",
+              "parentUUID": "9bc92211-5d81-45c2-817a-fd653b8abd77",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Search by Hip-hop genre",
+              "fullTitle": "Search_By_Genres Search by Hip-hop genre",
+              "timedOut": null,
+              "duration": 14876,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains('Search').click();\ncy.contains('Hip-Hop').click();",
+              "err": {},
+              "uuid": "7fe1f503-53a3-48a0-adc3-3d31c1ed0251",
+              "parentUUID": "9bc92211-5d81-45c2-817a-fd653b8abd77",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Search by Arabic genre",
+              "fullTitle": "Search_By_Genres Search by Arabic genre",
+              "timedOut": null,
+              "duration": 13231,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains('Search').click();\ncy.contains('Podcasts').click();",
+              "err": {},
+              "uuid": "c361b7d8-e376-4366-8fb9-af70aff0eb86",
+              "parentUUID": "9bc92211-5d81-45c2-817a-fd653b8abd77",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f34ebd1e-272e-414f-904b-d89b8ae40a08",
+            "7fe1f503-53a3-48a0-adc3-3d31c1ed0251",
+            "c361b7d8-e376-4366-8fb9-af70aff0eb86"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 57249,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}

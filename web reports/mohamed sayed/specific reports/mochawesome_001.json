@@ -1,0 +1,145 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-06-01T18:48:00.577Z",
+    "end": "2020-06-01T18:49:45.833Z",
+    "duration": 105256,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ac944ac4-242e-4926-b1b5-eac85d18d6a7",
+      "title": "",
+      "fullFile": "cypress\\integration\\test_cases\\final_real_spotify\\Change_password.js",
+      "file": "cypress\\integration\\test_cases\\final_real_spotify\\Change_password.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "eb53105e-806f-488f-a1db-6b57dc9cfbfc",
+          "title": "Change Password",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Wrong Current password",
+              "fullTitle": "Change Password Wrong Current password",
+              "timedOut": null,
+              "duration": 55976,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('#change_password_validatePassword').type(fakepassword);\ncy.get('#change_password_new_password').type(newpassword);\ncy.get('#change_password_check_password').type(newpassword);\ncy.get('#change_password_submit').click(); //edit profile\ncy.wait(1000);\ncy.get('label').contains('Sorry, wrong password');",
+              "err": {},
+              "uuid": "05b0a6c1-396d-4b46-be8c-21ed592e9d94",
+              "parentUUID": "eb53105e-806f-488f-a1db-6b57dc9cfbfc",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Wrong Confirmation",
+              "fullTitle": "Change Password Wrong Confirmation",
+              "timedOut": null,
+              "duration": 24484,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('#change_password_validatePassword').type(password);\ncy.get('#change_password_new_password').type(newpassword);\ncy.get('#change_password_check_password').type('wrongconfirmation');\ncy.get('#change_password_submit').click(); //edit profile\ncy.wait(1000);\ncy.get('label').contains('Please verify your password');",
+              "err": {},
+              "uuid": "bd2ceabb-808e-4f44-b613-a341743338f9",
+              "parentUUID": "eb53105e-806f-488f-a1db-6b57dc9cfbfc",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Change it",
+              "fullTitle": "Change Password Change it",
+              "timedOut": null,
+              "duration": 20464,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('#change_password_validatePassword').type(password);\ncy.get('#change_password_new_password').type(newpassword);\ncy.get('#change_password_check_password').type(newpassword);\ncy.get('#change_password_submit').click(); //edit profile\ncy.wait(1000);\ncy.get('div').contains('Password updated');",
+              "err": {},
+              "uuid": "ef67e520-4da8-421f-b64e-303ce92a5fb7",
+              "parentUUID": "eb53105e-806f-488f-a1db-6b57dc9cfbfc",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "05b0a6c1-396d-4b46-be8c-21ed592e9d94",
+            "bd2ceabb-808e-4f44-b613-a341743338f9",
+            "ef67e520-4da8-421f-b64e-303ce92a5fb7"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 100924,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.1.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "5.0.0"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "4.1.0"
+    }
+  }
+}

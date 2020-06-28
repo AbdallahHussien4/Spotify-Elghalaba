@@ -1,0 +1,131 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-06-08T22:48:32.056Z",
+    "end": "2020-06-08T22:49:45.755Z",
+    "duration": 73699,
+    "testsRegistered": 2,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 1,
+    "hasOther": true,
+    "skipped": 2,
+    "hasSkipped": true
+  },
+  "results": [
+    {
+      "uuid": "1a44c5c7-6fb5-48f3-96bb-b6ca505c6043",
+      "title": "",
+      "fullFile": "cypress\\integration\\test_cases\\LikeSongFollowArtist.js",
+      "file": "cypress\\integration\\test_cases\\LikeSongFollowArtist.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "94600439-758c-4823-9190-6c90f2637e3a",
+          "title": "Like_Song-Follow_Artist",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "follow an artist",
+              "fullTitle": "Like_Song-Follow_Artist follow an artist",
+              "timedOut": null,
+              "duration": 60658,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "//cy.wait(10000);\ncy.contains('Search').click();\ncy.get('[class=\"_2f8ed265fb69fb70c0c9afef329ae0b6-scss\"]').click().type('hamza namira');\ncy.get('[class=\"f79dd23c27c3352da3ac3ba62d78f8ea-scss\"]').eq(0).click();\ncy.wait(4000);\ncy.contains('follow').click();\ncy.contains('Your Library').click();\ncy.wait(1000);\ncy.contains('More').click();\ncy.contains('Artists').click();",
+              "err": {
+                "message": "CypressError: Timed out after waiting `60000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `60000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `cypress.json` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.\n\nBecause this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Like_Song-Follow_Artist`",
+                "estack": "CypressError: Timed out after waiting `60000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `60000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `cypress.json` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.\n\nBecause this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Like_Song-Follow_Artist`\ntimedOutWaitingForPageLoad@https://open.spotify.com/__cypress/runner/cypress_runner.js:144463:13\nvisit/<@https://open.spotify.com/__cypress/runner/cypress_runner.js:145424:16\ntryCatcher@https://open.spotify.com/__cypress/runner/cypress_runner.js:10384:23\ncatchFilter/<@https://open.spotify.com/__cypress/runner/cypress_runner.js:5506:41\ntryCatcher@https://open.spotify.com/__cypress/runner/cypress_runner.js:10384:23\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseFromHandler@https://open.spotify.com/__cypress/runner/cypress_runner.js:8319:31\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@https://open.spotify.com/__cypress/runner/cypress_runner.js:8376:18\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise0@https://open.spotify.com/__cypress/runner/cypress_runner.js:8421:10\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromises@https://open.spotify.com/__cypress/runner/cypress_runner.js:8497:18\n_drainQueueStep@https://open.spotify.com/__cypress/runner/cypress_runner.js:5091:12\n_drainQueue@https://open.spotify.com/__cypress/runner/cypress_runner.js:5084:24\n../../node_modules/bluebird/js/release/async.js/</Async.prototype._drainQueues@https://open.spotify.com/__cypress/runner/cypress_runner.js:5100:16\nAsync/this.drainQueues@https://open.spotify.com/__cypress/runner/cypress_runner.js:4970:14\nFrom Your Spec Code:\n    [1]</</<@https://open.spotify.com/__cypress/tests?p=cypress\\integration\\test_cases\\LikeSongFollowArtist.js:10:8\n    setRunnable/runnable.fn@https://open.spotify.com/__cypress/runner/cypress_runner.js:156528:45\n    callFn@https://open.spotify.com/__cypress/runner/cypress_runner.js:95404:21\n    ../driver/node_modules/mocha/lib/runnable.js/</Runnable.prototype.run@https://open.spotify.com/__cypress/runner/cypress_runner.js:95391:13\n    onRunnableRun/<@https://open.spotify.com/__cypress/runner/cypress_runner.js:160911:28\n    finallyHandler@https://open.spotify.com/__cypress/runner/cypress_runner.js:6938:23\n    tryCatcher@https://open.spotify.com/__cypress/runner/cypress_runner.js:10384:23\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseFromHandler@https://open.spotify.com/__cypress/runner/cypress_runner.js:8319:31\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@https://open.spotify.com/__cypress/runner/cypress_runner.js:8376:18\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise0@https://open.spotify.com/__cypress/runner/cypress_runner.js:8421:10\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromises@https://open.spotify.com/__cypress/runner/cypress_runner.js:8501:18\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._fulfill@https://open.spotify.com/__cypress/runner/cypress_runner.js:8445:18\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@https://open.spotify.com/__cypress/runner/cypress_runner.js:8389:21\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise0@https://open.spotify.com/__cypress/runner/cypress_runner.js:8421:10\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromises@https://open.spotify.com/__cypress/runner/cypress_runner.js:8501:18\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._fulfill@https://open.spotify.com/__cypress/runner/cypress_runner.js:8445:18\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._resolveCallback@https://open.spotify.com/__cypress/runner/cypress_runner.js:8239:57\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseFromHandler@https://open.spotify.com/__cypress/runner/cypress_runner.js:8331:17\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@https://open.spotify.com/__cypress/runner/cypress_runner.js:8376:18\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise0@https://open.spotify.com/__cypress/runner/cypress_runner.js:8421:10\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromises@https://open.spotify.com/__cypress/runner/cypress_runner.js:8501:18\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._fulfill@https://open.spotify.com/__cypress/runner/cypress_runner.js:8445:18\n    ../../node_modules/bluebird/js/release/promise_array.js/module.exports/PromiseArray.prototype._resolve@https://open.spotify.com/__cypress/runner/cypress_runner.js:8718:19\n    ../../node_modules/bluebird/js/release/promise_array.js/module.exports/PromiseArray.prototype._promiseFulfilled@https://open.spotify.com/__cypress/runner/cypress_runner.js:8736:14\n    ../../node_modules/bluebird/js/release/promise_array.js/module.exports/PromiseArray.prototype._iterate@https://open.spotify.com/__cypress/runner/cypress_runner.js:8706:31\n    init@https://open.spotify.com/__cypress/runner/cypress_runner.js:8670:10\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@https://open.spotify.com/__cypress/runner/cypress_runner.js:8373:21\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise0@https://open.spotify.com/__cypress/runner/cypress_runner.js:8421:10\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromises@https://open.spotify.com/__cypress/runner/cypress_runner.js:8501:18\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._fulfill@https://open.spotify.com/__cypress/runner/cypress_runner.js:8445:18\n    ../../node_modules/bluebird/js/release/promise_array.js/module.exports/PromiseArray.prototype._resolve@https://open.spotify.com/__cypress/runner/cypress_runner.js:8718:19\n    ../../node_modules/bluebird/js/release/promise_array.js/module.exports/PromiseArray.prototype._promiseFulfilled@https://open.spotify.com/__cypress/runner/cypress_runner.js:8736:14\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@https://open.spotify.com/__cypress/runner/cypress_runner.js:8381:26\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise0@https://open.spotify.com/__cypress/runner/cypress_runner.js:8421:10\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromises@https://open.spotify.com/__cypress/runner/cypress_runner.js:8501:18\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._fulfill@https://open.spotify.com/__cypress/runner/cypress_runner.js:8445:18\n    ../../node_modules/bluebird/js/release/promise_array.js/module.exports/PromiseArray.prototype._resolve@https://open.spotify.com/__cypress/runner/cypress_runner.js:8718:19\n    ../../node_modules/bluebird/js/release/map.js/module.exports/MappingPromiseArray.prototype._promiseFulfilled@https://open.spotify.com/__cypress/runner/cypress_runner.js:7544:18\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@https://open.spotify.com/__cypress/runner/cypress_runner.js:8381:26\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise0@https://open.spotify.com/__cypress/runner/cypress_runner.js:8421:10\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromises@https://open.spotify.com/__cypress/runner/cypress_runner.js:8501:18\n    _drainQueueStep@https://open.spotify.com/__cypress/runner/cypress_runner.js:5091:12\n    _drainQueue@https://open.spotify.com/__cypress/runner/cypress_runner.js:5084:24\n    ../../node_modules/bluebird/js/release/async.js/</Async.prototype._drainQueues@https://open.spotify.com/__cypress/runner/cypress_runner.js:5100:16\n    Async/this.drainQueues@https://open.spotify.com/__cypress/runner/cypress_runner.js:4970:14\n",
+                "diff": null
+              },
+              "uuid": "e226d257-b793-440d-b452-f14c2855812f",
+              "parentUUID": "94600439-758c-4823-9190-6c90f2637e3a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Like a Song",
+              "fullTitle": "Like_Song-Follow_Artist Like a Song",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.wait(1000);\ncy.contains('Search').click();\ncy.get('[class=\"_2f8ed265fb69fb70c0c9afef329ae0b6-scss\"]').click().type('kefak enta');\ncy.get('[class=\"f79dd23c27c3352da3ac3ba62d78f8ea-scss\"]').eq(0).click();\ncy.wait(4000);\ncy.get('[class=\"spoticon-heart-32\"]').click();\ncy.contains('Liked Songs').click();\ncy.wait(1000);",
+              "err": {},
+              "uuid": "b029c209-3f31-4978-b428-87ac87e62ba9",
+              "parentUUID": "94600439-758c-4823-9190-6c90f2637e3a",
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "e226d257-b793-440d-b452-f14c2855812f"
+          ],
+          "pending": [],
+          "skipped": [
+            "b029c209-3f31-4978-b428-87ac87e62ba9"
+          ],
+          "duration": 60658,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}

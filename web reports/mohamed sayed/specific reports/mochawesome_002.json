@@ -1,0 +1,183 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-06-01T18:50:20.180Z",
+    "end": "2020-06-01T18:52:39.325Z",
+    "duration": 139145,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "be59656f-2b6d-4e12-8e53-c81c4a28f4d5",
+      "title": "",
+      "fullFile": "cypress\\integration\\test_cases\\final_real_spotify\\Edit_profile.js",
+      "file": "cypress\\integration\\test_cases\\final_real_spotify\\Edit_profile.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "4b4da6e2-d38b-45c8-85f0-41a1ebe81067",
+          "title": "Edit Profile",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "change date",
+              "fullTitle": "Edit Profile change date",
+              "timedOut": null,
+              "duration": 58405,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('#profile_birthdate_month').select(month);\ncy.get('#profile_birthdate_day').select(day);\ncy.get('#profile_birthdate_year').select(year);\ncy.get('#profile_save_profile').click(); //edit profile\ncy.wait(1000);\ncy.get('p').contains('Profile saved');",
+              "err": {},
+              "uuid": "e2d016ab-44ae-4da8-bd14-d50a24d5020d",
+              "parentUUID": "4b4da6e2-d38b-45c8-85f0-41a1ebe81067",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "change gender",
+              "fullTitle": "Edit Profile change gender",
+              "timedOut": null,
+              "duration": 18908,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('#profile_gender').select(gender);\ncy.get('#profile_save_profile').click(); //edit profile\ncy.wait(1000);\ncy.get('p').contains('Profile saved');",
+              "err": {},
+              "uuid": "4b00550d-233f-4c34-9ed5-422cbbfdbb86",
+              "parentUUID": "4b4da6e2-d38b-45c8-85f0-41a1ebe81067",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "change country",
+              "fullTitle": "Edit Profile change country",
+              "timedOut": null,
+              "duration": 21079,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('#profile_country').select(country);\ncy.get('#profile_save_profile').click(); //edit profile\ncy.wait(1000);\ncy.get('p').contains('Profile saved');",
+              "err": {},
+              "uuid": "e9cd2524-3fb7-490a-bc65-d86c6fdcc2bf",
+              "parentUUID": "4b4da6e2-d38b-45c8-85f0-41a1ebe81067",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "change mobile",
+              "fullTitle": "Edit Profile change mobile",
+              "timedOut": null,
+              "duration": 19314,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('#profile_mobile_number').clear();\ncy.get('#profile_mobile_number').type(phone);\ncy.get('#profile_save_profile').click(); //edit profile\ncy.wait(1000);\ncy.get('p').contains('Profile saved');",
+              "err": {},
+              "uuid": "70354f80-6322-4a87-9236-05899733c2c6",
+              "parentUUID": "4b4da6e2-d38b-45c8-85f0-41a1ebe81067",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "change email",
+              "fullTitle": "Edit Profile change email",
+              "timedOut": null,
+              "duration": 18337,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('#profile_email').clear();\ncy.get('#profile_email').type(newemail);\ncy.wait(100);\ncy.get('#profile_confirmPassword').type(password);\ncy.get('#profile_save_profile').click(); //edit profile\ncy.wait(1000);\ncy.get('p').contains('Profile saved');",
+              "err": {},
+              "uuid": "85b8cafd-e983-497a-8423-82b7d5682167",
+              "parentUUID": "4b4da6e2-d38b-45c8-85f0-41a1ebe81067",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e2d016ab-44ae-4da8-bd14-d50a24d5020d",
+            "4b00550d-233f-4c34-9ed5-422cbbfdbb86",
+            "e9cd2524-3fb7-490a-bc65-d86c6fdcc2bf",
+            "70354f80-6322-4a87-9236-05899733c2c6",
+            "85b8cafd-e983-497a-8423-82b7d5682167"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 136043,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.1.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "5.0.0"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "4.1.0"
+    }
+  }
+}

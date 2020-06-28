@@ -1,0 +1,183 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-06-01T18:42:20.126Z",
+    "end": "2020-06-01T18:45:46.838Z",
+    "duration": 206712,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ad0090fa-eb97-478e-afec-4a858d88ec99",
+      "title": "",
+      "fullFile": "cypress\\integration\\test_cases\\final_real_spotify\\Bad_Auth.js",
+      "file": "cypress\\integration\\test_cases\\final_real_spotify\\Bad_Auth.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "842475ca-f93a-4b32-bf7c-d3ee226163f6",
+          "title": "Bad Auth",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "access account-overview without login",
+              "fullTitle": "Bad Auth access account-overview without login",
+              "timedOut": null,
+              "duration": 78125,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('span').contains('Profile').click();\ncy.get('a').contains('Log Out').click();\ncy.wait(1000);\ncy.visit('https://www.spotify.com/eg-en/account/overview/');\ncy.url().should('be', 'https://accounts.spotify.com/en/login?continue=https:%2F%2Fwww.spotify.com%2Feg-en%2Faccount%2Foverview%2F');",
+              "err": {},
+              "uuid": "191d0cf0-2b43-4024-864b-19331b97310b",
+              "parentUUID": "842475ca-f93a-4b32-bf7c-d3ee226163f6",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "access edit-profile without login ",
+              "fullTitle": "Bad Auth access edit-profile without login ",
+              "timedOut": null,
+              "duration": 23791,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('span').contains('Profile').click();\ncy.get('a').contains('Log Out').click();\ncy.wait(1000);\ncy.visit('https://www.spotify.com/eg-en/account/profile/');\ncy.url().should('be', 'https://accounts.spotify.com/en/login?continue=https:%2F%2Fwww.spotify.com%2Feg-en%2Faccount%2Foverview%2F');",
+              "err": {},
+              "uuid": "9f1c1999-dc04-4720-ba2d-44dc7d10c447",
+              "parentUUID": "842475ca-f93a-4b32-bf7c-d3ee226163f6",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "access change password without login ",
+              "fullTitle": "Bad Auth access change password without login ",
+              "timedOut": null,
+              "duration": 34464,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('span').contains('Profile').click();\ncy.get('a').contains('Log Out').click();\ncy.wait(1000);\ncy.visit('https://www.spotify.com/eg-en/account/change-password/');\ncy.url().should('be', 'https://accounts.spotify.com/en/login?continue=https:%2F%2Fwww.spotify.com%2Feg-en%2Faccount%2Foverview%2F');",
+              "err": {},
+              "uuid": "45dedb29-8e55-48b9-a747-49adba81e38f",
+              "parentUUID": "842475ca-f93a-4b32-bf7c-d3ee226163f6",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "access notification setting without login ",
+              "fullTitle": "Bad Auth access notification setting without login ",
+              "timedOut": null,
+              "duration": 25951,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('span').contains('Profile').click();\ncy.get('a').contains('Log Out').click();\ncy.wait(1000);\ncy.visit('https://www.spotify.com/eg-en/account/notifications/');\ncy.url().should('be', 'https://accounts.spotify.com/en/login?continue=https:%2F%2Fwww.spotify.com%2Feg-en%2Faccount%2Foverview%2F');",
+              "err": {},
+              "uuid": "fb798548-f025-4e8b-8fc8-637a32b22099",
+              "parentUUID": "842475ca-f93a-4b32-bf7c-d3ee226163f6",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "access pivacy setting without login ",
+              "fullTitle": "Bad Auth access pivacy setting without login ",
+              "timedOut": null,
+              "duration": 24533,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('span').contains('Profile').click();\ncy.get('a').contains('Log Out').click();\ncy.wait(1000);\ncy.visit('https://www.spotify.com/eg-en/account/privacy/');\ncy.url().should('be', 'https://accounts.spotify.com/en/login?continue=https:%2F%2Fwww.spotify.com%2Feg-en%2Faccount%2Foverview%2F');",
+              "err": {},
+              "uuid": "cfcd5c3a-a3d3-4b3e-b8fb-7c9aa5951bed",
+              "parentUUID": "842475ca-f93a-4b32-bf7c-d3ee226163f6",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "191d0cf0-2b43-4024-864b-19331b97310b",
+            "9f1c1999-dc04-4720-ba2d-44dc7d10c447",
+            "45dedb29-8e55-48b9-a747-49adba81e38f",
+            "fb798548-f025-4e8b-8fc8-637a32b22099",
+            "cfcd5c3a-a3d3-4b3e-b8fb-7c9aa5951bed"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 186864,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.1.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "5.0.0"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "4.1.0"
+    }
+  }
+}

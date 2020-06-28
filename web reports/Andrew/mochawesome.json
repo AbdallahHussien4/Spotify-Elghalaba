@@ -1,0 +1,131 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-06-02T18:54:33.011Z",
+    "end": "2020-06-02T18:54:58.071Z",
+    "duration": 25060,
+    "testsRegistered": 2,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 2,
+    "hasOther": true,
+    "skipped": 2,
+    "hasSkipped": true
+  },
+  "results": [
+    {
+      "uuid": "e8ad22d5-93ab-4a71-9e94-822596de0f4e",
+      "title": "",
+      "fullFile": "cypress\\integration\\test_cases\\LikeSongFollowArtist.js",
+      "file": "cypress\\integration\\test_cases\\LikeSongFollowArtist.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "fed8e50d-1959-4ef6-857c-88785492a08f",
+          "title": "Like_Song-Follow_Artist",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "follow an artist",
+              "fullTitle": "Like_Song-Follow_Artist follow an artist",
+              "timedOut": null,
+              "duration": 6871,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains('Search').click();\ncy.get('[class=\"_2f8ed265fb69fb70c0c9afef329ae0b6-scss\"]').click().type('hamza namira');\ncy.get('[class=\"f79dd23c27c3352da3ac3ba62d78f8ea-scss\"]').eq(0).click();\ncy.wait(4000);\ncy.contains('follow').click();\ncy.contains('Your Library').click();\ncy.wait(1000);\ncy.contains('More').click();\ncy.contains('Artists').click();",
+              "err": {
+                "message": "CypressError: `cy.click()` failed because it requires a DOM element.\n\nThe subject received was:\n\n  > `undefined`\n\nThe previous command that ran was:\n\n  > `cy.get()`\n\nBecause this error occurred during a `after each` hook we are skipping the remaining tests in the current suite: `Like_Song-Follow_Artist`",
+                "estack": "CypressError: `cy.click()` failed because it requires a DOM element.\n\nThe subject received was:\n\n  > `undefined`\n\nThe previous command that ran was:\n\n  > `cy.get()`\n\nBecause this error occurred during a `after each` hook we are skipping the remaining tests in the current suite: `Like_Song-Follow_Artist`\n    at ensureElement (https://open.spotify.com/__cypress/runner/cypress_runner.js:148535:24)\n    at validateType (https://open.spotify.com/__cypress/runner/cypress_runner.js:148359:16)\n    at Object.ensureSubjectByType (https://open.spotify.com/__cypress/runner/cypress_runner.js:148401:11)\n    at pushSubjectAndValidate (https://open.spotify.com/__cypress/runner/cypress_runner.js:155938:15)\n    at Context.<anonymous> (https://open.spotify.com/__cypress/runner/cypress_runner.js:156258:18)\nFrom Your Spec Code:\n    at Context.eval (https://open.spotify.com/__cypress/tests?p=cypress\\integration\\test_cases\\LikeSongFollowArtist.js:26:64)",
+                "diff": null
+              },
+              "uuid": "a53b4925-7033-4afc-ad09-d9544ece10a2",
+              "parentUUID": "fed8e50d-1959-4ef6-857c-88785492a08f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Like a Song",
+              "fullTitle": "Like_Song-Follow_Artist Like a Song",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains('Search').click();\ncy.get('[class=\"_2f8ed265fb69fb70c0c9afef329ae0b6-scss\"]').click().type('kefak enta');\ncy.get('[class=\"f79dd23c27c3352da3ac3ba62d78f8ea-scss\"]').eq(0).click();\ncy.wait(4000);\ncy.get('[class=\"spoticon-heart-32\"]').click();\ncy.contains('Liked Songs').click();\ncy.wait(1000);",
+              "err": {},
+              "uuid": "37f33eaa-0b64-40fc-8f46-5ae541b3c9ea",
+              "parentUUID": "fed8e50d-1959-4ef6-857c-88785492a08f",
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "a53b4925-7033-4afc-ad09-d9544ece10a2"
+          ],
+          "pending": [],
+          "skipped": [
+            "37f33eaa-0b64-40fc-8f46-5ae541b3c9ea"
+          ],
+          "duration": 6871,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}

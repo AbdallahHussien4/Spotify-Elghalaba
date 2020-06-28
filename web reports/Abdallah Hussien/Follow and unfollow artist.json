@@ -1,0 +1,126 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-06-05T18:02:58.583Z",
+    "end": "2020-06-05T18:03:23.275Z",
+    "duration": 24692,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "8ba881ed-eed5-4037-84a3-9716087ffbaf",
+      "title": "",
+      "fullFile": "cypress\\integration\\test_cases\\final_real_spotify\\FollowUnfollowArtist.js",
+      "file": "cypress\\integration\\test_cases\\final_real_spotify\\FollowUnfollowArtist.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "c2b7889e-9ca3-4fa7-94b7-bf745c371140",
+          "title": "Test Following the artitsts",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Follow an artist",
+              "fullTitle": "Test Following the artitsts Follow an artist",
+              "timedOut": null,
+              "duration": 15481,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('[href=\"/search\"]').click();\ncy.get('._2f8ed265fb69fb70c0c9afef329ae0b6-scss').type(\"mohamed mounir\"); //Search Tab\ncy.wait(2000);\ncy.get('.f79dd23c27c3352da3ac3ba62d78f8ea-scss').first().click(); //Artist Icon\ncy.wait(2000);\ncy.get('.b49b68b14a1771a4cb36313f2b350e84-scss').click({\n  force: true\n}); //Follow Button\ncy.get('[aria-label=\"Your Library\"]').click();\ncy.get('[href=\"/collection/artists\"]').click();\ncy.get('._80c2c1f0f44b53866fc1b5e9fa66b949-scss').should('contain', 'Mohamed Mounir'); //Artist Card in your library",
+              "err": {},
+              "uuid": "ee902456-3a96-401f-83a7-2309885c35f8",
+              "parentUUID": "c2b7889e-9ca3-4fa7-94b7-bf745c371140",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "UnFollow an artist",
+              "fullTitle": "Test Following the artitsts UnFollow an artist",
+              "timedOut": null,
+              "duration": 8008,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('[aria-label=\"Your Library\"]').click();\ncy.get('[href=\"/collection/artists\"]').click();\ncy.get('._80c2c1f0f44b53866fc1b5e9fa66b949-scss').contains('Mohamed Mounir').click(); //Artist Card in your library\ncy.wait(2000);\ncy.get('.b49b68b14a1771a4cb36313f2b350e84-scss').click({\n  force: true\n}); //Follow Button\ncy.get('[aria-label=\"Your Library\"]').click();\ncy.get('[href=\"/collection/artists\"]').click();\ncy.get('._80c2c1f0f44b53866fc1b5e9fa66b949-scss').should('not.contain', 'Mohamed Mounir'); //Dicover Artists",
+              "err": {},
+              "uuid": "31cab717-86ff-4bc6-805c-341640a33d8a",
+              "parentUUID": "c2b7889e-9ca3-4fa7-94b7-bf745c371140",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ee902456-3a96-401f-83a7-2309885c35f8",
+            "31cab717-86ff-4bc6-805c-341640a33d8a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 23489,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.1.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "5.0.0"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": true,
+        "html": true,
+        "json": true
+      },
+      "version": "4.1.0"
+    }
+  }
+}

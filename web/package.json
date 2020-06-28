@@ -1,0 +1,36 @@
+{
+    "name": "e2e",
+    "version": "1.0.0",
+    "description": "testing\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Cspotify_testing",
+    "main": "index.js",
+    "scripts": {
+        "scripts": "cypress run --browser chrome",
+        "combine-reports": "mochawesome-merge cypress/reports/mocha/*.json > cypress/reports/mochareports/report.json",
+        "generate-report": "marge cypress/reports/mochareports/report.json -f report -o cypress/reports/mochareports",
+        "posttest": "npm run combine-reports && npm run generate-report",
+        "test": "npm run scripts || npm run posttest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://gitlab.com/spotify_el8alaba/e2e.git"
+    },
+    "keywords": [
+        "testing"
+    ],
+    "author": "mohamed_sayed",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://gitlab.com/spotify_el8alaba/e2e/issues"
+    },
+    "homepage": "https://gitlab.com/spotify_el8alaba/e2e#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "cypress": "^4.3.0",
+        "cypress-multi-reporters": "^1.2.4",
+        "mocha": "^7.1.1",
+        "mocha-multi-reporters": "^1.1.7",
+        "mochawesome": "^5.0.0",
+        "mochawesome-merge": "^4.0.3",
+        "mochawesome-report-generator": "^4.1.0"
+    }
+}

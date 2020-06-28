@@ -1,0 +1,131 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-06-08T22:33:20.679Z",
+    "end": "2020-06-08T22:33:25.256Z",
+    "duration": 4577,
+    "testsRegistered": 2,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 1,
+    "hasOther": true,
+    "skipped": 2,
+    "hasSkipped": true
+  },
+  "results": [
+    {
+      "uuid": "aa398899-436f-4d59-b186-b9323e5a13e3",
+      "title": "",
+      "fullFile": "cypress\\integration\\test_cases\\LikeSongFollowArtist.js",
+      "file": "cypress\\integration\\test_cases\\LikeSongFollowArtist.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d239e6ed-b73d-4c2f-9bab-8617e494f124",
+          "title": "Like_Song-Follow_Artist",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "follow an artist",
+              "fullTitle": "Like_Song-Follow_Artist follow an artist",
+              "timedOut": null,
+              "duration": 4116,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "//cy.wait(10000);\ncy.contains('Search').click();\ncy.get('[class=\"_2f8ed265fb69fb70c0c9afef329ae0b6-scss\"]').click().type('hamza namira');\ncy.get('[class=\"f79dd23c27c3352da3ac3ba62d78f8ea-scss\"]').eq(0).click();\ncy.wait(4000);\ncy.contains('follow').click();\ncy.contains('Your Library').click();\ncy.wait(1000);\ncy.contains('More').click();\ncy.contains('Artists').click();",
+              "err": {
+                "message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://open.spotify.com/\n\nThe response we received from your web server was:\n\n  > 503: Service Unavailable\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`\n\nBecause this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Like_Song-Follow_Artist`",
+                "estack": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://open.spotify.com/\n\nThe response we received from your web server was:\n\n  > 503: Service Unavailable\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`\n\nBecause this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Like_Song-Follow_Artist`\ngo/</<@http://localhost:10796/__cypress/runner/cypress_runner.js:145372:25\nvisitFailedByErr@http://localhost:10796/__cypress/runner/cypress_runner.js:144763:12\ngo/<@http://localhost:10796/__cypress/runner/cypress_runner.js:145352:29\ntryCatcher@http://localhost:10796/__cypress/runner/cypress_runner.js:10384:23\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseFromHandler@http://localhost:10796/__cypress/runner/cypress_runner.js:8319:31\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@http://localhost:10796/__cypress/runner/cypress_runner.js:8376:18\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise0@http://localhost:10796/__cypress/runner/cypress_runner.js:8421:10\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromises@http://localhost:10796/__cypress/runner/cypress_runner.js:8497:18\n_drainQueueStep@http://localhost:10796/__cypress/runner/cypress_runner.js:5091:12\n_drainQueue@http://localhost:10796/__cypress/runner/cypress_runner.js:5084:24\n../../node_modules/bluebird/js/release/async.js/</Async.prototype._drainQueues@http://localhost:10796/__cypress/runner/cypress_runner.js:5100:16\nAsync/this.drainQueues@http://localhost:10796/__cypress/runner/cypress_runner.js:4970:14\nFrom Your Spec Code:\n    [1]</</<@http://localhost:10796/__cypress/tests?p=cypress\\integration\\test_cases\\LikeSongFollowArtist.js:10:8\n    setRunnable/runnable.fn@http://localhost:10796/__cypress/runner/cypress_runner.js:156528:45\n    callFn@http://localhost:10796/__cypress/runner/cypress_runner.js:95404:21\n    ../driver/node_modules/mocha/lib/runnable.js/</Runnable.prototype.run@http://localhost:10796/__cypress/runner/cypress_runner.js:95391:13\n    onRunnableRun/<@http://localhost:10796/__cypress/runner/cypress_runner.js:160911:28\n    finallyHandler@http://localhost:10796/__cypress/runner/cypress_runner.js:6938:23\n    tryCatcher@http://localhost:10796/__cypress/runner/cypress_runner.js:10384:23\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseFromHandler@http://localhost:10796/__cypress/runner/cypress_runner.js:8319:31\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@http://localhost:10796/__cypress/runner/cypress_runner.js:8376:18\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise0@http://localhost:10796/__cypress/runner/cypress_runner.js:8421:10\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromises@http://localhost:10796/__cypress/runner/cypress_runner.js:8501:18\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._fulfill@http://localhost:10796/__cypress/runner/cypress_runner.js:8445:18\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@http://localhost:10796/__cypress/runner/cypress_runner.js:8389:21\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise0@http://localhost:10796/__cypress/runner/cypress_runner.js:8421:10\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromises@http://localhost:10796/__cypress/runner/cypress_runner.js:8501:18\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._fulfill@http://localhost:10796/__cypress/runner/cypress_runner.js:8445:18\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._resolveCallback@http://localhost:10796/__cypress/runner/cypress_runner.js:8239:57\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseFromHandler@http://localhost:10796/__cypress/runner/cypress_runner.js:8331:17\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@http://localhost:10796/__cypress/runner/cypress_runner.js:8376:18\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise0@http://localhost:10796/__cypress/runner/cypress_runner.js:8421:10\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromises@http://localhost:10796/__cypress/runner/cypress_runner.js:8501:18\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._fulfill@http://localhost:10796/__cypress/runner/cypress_runner.js:8445:18\n    ../../node_modules/bluebird/js/release/promise_array.js/module.exports/PromiseArray.prototype._resolve@http://localhost:10796/__cypress/runner/cypress_runner.js:8718:19\n    ../../node_modules/bluebird/js/release/promise_array.js/module.exports/PromiseArray.prototype._promiseFulfilled@http://localhost:10796/__cypress/runner/cypress_runner.js:8736:14\n    ../../node_modules/bluebird/js/release/promise_array.js/module.exports/PromiseArray.prototype._iterate@http://localhost:10796/__cypress/runner/cypress_runner.js:8706:31\n    init@http://localhost:10796/__cypress/runner/cypress_runner.js:8670:10\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@http://localhost:10796/__cypress/runner/cypress_runner.js:8373:21\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise0@http://localhost:10796/__cypress/runner/cypress_runner.js:8421:10\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromises@http://localhost:10796/__cypress/runner/cypress_runner.js:8501:18\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._fulfill@http://localhost:10796/__cypress/runner/cypress_runner.js:8445:18\n    ../../node_modules/bluebird/js/release/promise_array.js/module.exports/PromiseArray.prototype._resolve@http://localhost:10796/__cypress/runner/cypress_runner.js:8718:19\n    ../../node_modules/bluebird/js/release/promise_array.js/module.exports/PromiseArray.prototype._promiseFulfilled@http://localhost:10796/__cypress/runner/cypress_runner.js:8736:14\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@http://localhost:10796/__cypress/runner/cypress_runner.js:8381:26\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise0@http://localhost:10796/__cypress/runner/cypress_runner.js:8421:10\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromises@http://localhost:10796/__cypress/runner/cypress_runner.js:8501:18\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._fulfill@http://localhost:10796/__cypress/runner/cypress_runner.js:8445:18\n    ../../node_modules/bluebird/js/release/promise_array.js/module.exports/PromiseArray.prototype._resolve@http://localhost:10796/__cypress/runner/cypress_runner.js:8718:19\n    ../../node_modules/bluebird/js/release/map.js/module.exports/MappingPromiseArray.prototype._promiseFulfilled@http://localhost:10796/__cypress/runner/cypress_runner.js:7544:18\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@http://localhost:10796/__cypress/runner/cypress_runner.js:8381:26\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise0@http://localhost:10796/__cypress/runner/cypress_runner.js:8421:10\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromises@http://localhost:10796/__cypress/runner/cypress_runner.js:8501:18\n    _drainQueueStep@http://localhost:10796/__cypress/runner/cypress_runner.js:5091:12\n    _drainQueue@http://localhost:10796/__cypress/runner/cypress_runner.js:5084:24\n    ../../node_modules/bluebird/js/release/async.js/</Async.prototype._drainQueues@http://localhost:10796/__cypress/runner/cypress_runner.js:5100:16\n    Async/this.drainQueues@http://localhost:10796/__cypress/runner/cypress_runner.js:4970:14\n",
+                "diff": null
+              },
+              "uuid": "f5d41517-ced7-4e50-a415-4699809aa3c9",
+              "parentUUID": "d239e6ed-b73d-4c2f-9bab-8617e494f124",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Like a Song",
+              "fullTitle": "Like_Song-Follow_Artist Like a Song",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.wait(1000);\ncy.contains('Search').click();\ncy.get('[class=\"_2f8ed265fb69fb70c0c9afef329ae0b6-scss\"]').click().type('kefak enta');\ncy.get('[class=\"f79dd23c27c3352da3ac3ba62d78f8ea-scss\"]').eq(0).click();\ncy.wait(4000);\ncy.get('[class=\"spoticon-heart-32\"]').click();\ncy.contains('Liked Songs').click();\ncy.wait(1000);",
+              "err": {},
+              "uuid": "758dea5c-d1a9-4115-8cf2-4b715aae2402",
+              "parentUUID": "d239e6ed-b73d-4c2f-9bab-8617e494f124",
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "f5d41517-ced7-4e50-a415-4699809aa3c9"
+          ],
+          "pending": [],
+          "skipped": [
+            "758dea5c-d1a9-4115-8cf2-4b715aae2402"
+          ],
+          "duration": 4116,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-06-05T18:04:47.089Z",
+    "end": "2020-06-05T18:05:13.202Z",
+    "duration": 26113,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "928d1016-e070-4445-b91b-b42eb8c62841",
+      "title": "",
+      "fullFile": "cypress\\integration\\test_cases\\final_real_spotify\\LikeUnlikeAlbum.js",
+      "file": "cypress\\integration\\test_cases\\final_real_spotify\\LikeUnlikeAlbum.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d1d1c9d0-e0c8-4bb8-99cc-ff48322394d8",
+          "title": "Test Liking Albums",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Like an album",
+              "fullTitle": "Test Liking Albums Like an album",
+              "timedOut": null,
+              "duration": 16857,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('[href=\"/search\"]').click();\ncy.get('._2f8ed265fb69fb70c0c9afef329ae0b6-scss').type(\"Ya Ahl El Arab Wel Tarab\"); //Search Tab\ncy.wait(2000);\ncy.get('.f79dd23c27c3352da3ac3ba62d78f8ea-scss').first().click(); //Album Icon\ncy.wait(2000);\ncy.get('.spoticon-heart-32').click({\n  force: true\n}); //Like Button\ncy.get('[aria-label=\"Your Library\"]').click();\ncy.get('[href=\"/collection/albums\"]').click();\ncy.get('._80c2c1f0f44b53866fc1b5e9fa66b949-scss').should('contain', 'Ya Ahl El Arab Wel Tarab'); //Album Card in your library",
+              "err": {},
+              "uuid": "eabac493-ced5-4229-b253-62bffbcbc4c0",
+              "parentUUID": "d1d1c9d0-e0c8-4bb8-99cc-ff48322394d8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Unlike an album",
+              "fullTitle": "Test Liking Albums Unlike an album",
+              "timedOut": null,
+              "duration": 8016,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('[aria-label=\"Your Library\"]').click();\ncy.get('[href=\"/collection/albums\"]').click();\ncy.get('._80c2c1f0f44b53866fc1b5e9fa66b949-scss').contains('Ya Ahl El Arab Wel Tarab').click(); //Album Card in your library\ncy.wait(2000);\ncy.get('.spoticon-heart-active-32').click({\n  force: true\n}); //Like Button\ncy.get('[aria-label=\"Your Library\"]').click();\ncy.get('[href=\"/collection/albums\"]').click();\ncy.get('._80c2c1f0f44b53866fc1b5e9fa66b949-scss').should('not.contain', 'Ya Ahl El Arab Wel Tarab'); //Dicover Albums",
+              "err": {},
+              "uuid": "0e59b4fd-2dd7-4c1f-8a25-9106aa36487c",
+              "parentUUID": "d1d1c9d0-e0c8-4bb8-99cc-ff48322394d8",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "eabac493-ced5-4229-b253-62bffbcbc4c0",
+            "0e59b4fd-2dd7-4c1f-8a25-9106aa36487c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 24873,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.1.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "5.0.0"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": true,
+        "html": true,
+        "json": true
+      },
+      "version": "4.1.0"
+    }
+  }
+}

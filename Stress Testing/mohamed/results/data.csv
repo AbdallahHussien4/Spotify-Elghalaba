@@ -1,0 +1,261 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1591046899275,1928,Home page,200,OK,Thread Group 1-3,text,true,,49181,126,20,20,https://www.spotify.com/eg-ar//,1644,0,1482
+1591046899784,1432,Home page,200,OK,Thread Group 1-14,text,true,,49190,126,20,20,https://www.spotify.com/eg-ar//,1135,0,973
+1591046899632,1627,Home page,200,OK,Thread Group 1-11,text,true,,49196,126,20,20,https://www.spotify.com/eg-ar//,1288,0,1125
+1591046899684,1583,Home page,200,OK,Thread Group 1-12,text,true,,49190,126,20,20,https://www.spotify.com/eg-ar//,1238,0,1073
+1591046899734,1552,Home page,200,OK,Thread Group 1-13,text,true,,49191,126,20,20,https://www.spotify.com/eg-ar//,1189,0,1025
+1591046899584,1732,Home page,200,OK,Thread Group 1-10,text,true,,49183,126,20,20,https://www.spotify.com/eg-ar//,1335,0,1175
+1591046899275,2184,Home page,200,OK,Thread Group 1-1,text,true,,49195,126,20,20,https://www.spotify.com/eg-ar//,1658,0,1484
+1591046899433,2026,Home page,200,OK,Thread Group 1-7,text,true,,49196,126,20,20,https://www.spotify.com/eg-ar//,1501,0,1335
+1591046900085,1375,Home page,200,OK,Thread Group 1-20,text,true,,49191,126,20,20,https://www.spotify.com/eg-ar//,855,0,683
+1591046899534,1930,Home page,200,OK,Thread Group 1-9,text,true,,49182,126,20,20,https://www.spotify.com/eg-ar//,1409,0,1234
+1591046899283,2182,Home page,200,OK,Thread Group 1-4,text,true,,49183,126,20,20,https://www.spotify.com/eg-ar//,1683,0,1489
+1591046899884,1586,Home page,200,OK,Thread Group 1-16,text,true,,49192,126,20,20,https://www.spotify.com/eg-ar//,1091,0,886
+1591046900033,1440,Home page,200,OK,Thread Group 1-19,text,true,,49185,126,20,20,https://www.spotify.com/eg-ar//,946,0,735
+1591046899484,1991,Home page,200,OK,Thread Group 1-8,text,true,,49182,126,20,20,https://www.spotify.com/eg-ar//,1515,0,1295
+1591046899934,1545,Home page,200,OK,Thread Group 1-17,text,true,,49182,126,20,20,https://www.spotify.com/eg-ar//,1072,0,839
+1591046899275,2206,Home page,200,OK,Thread Group 1-2,text,true,,49192,126,20,20,https://www.spotify.com/eg-ar//,1745,0,1498
+1591046899833,1652,Home page,200,OK,Thread Group 1-15,text,true,,49191,126,20,20,https://www.spotify.com/eg-ar//,1223,0,940
+1591046899983,1503,Home page,200,OK,Thread Group 1-18,text,true,,49195,126,20,20,https://www.spotify.com/eg-ar//,1067,0,796
+1591046899333,2187,Home page,200,OK,Thread Group 1-5,text,true,,49187,126,20,20,https://www.spotify.com/eg-ar//,1733,0,1466
+1591046899383,2165,Home page,200,OK,Thread Group 1-6,text,true,,49189,126,20,20,https://www.spotify.com/eg-ar//,1688,0,1406
+1591046901481,11575,account over view,200,OK,Thread Group 1-2,text,true,,5148,344,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,420,0,268
+1591046901481,421,account over view-0,302,Found,Thread Group 1-2,text,true,,994,143,20,20,https://www.spotify.com/eg-ar/account/overview//,420,0,268
+1591046901904,11152,account over view-1,200,OK,Thread Group 1-2,text,true,,4154,201,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,11152,0,11054
+1591046901480,11579,account over view,200,OK,Thread Group 1-17,text,true,,5147,344,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,601,0,420
+1591046901480,601,account over view-0,302,Found,Thread Group 1-17,text,true,,994,143,20,20,https://www.spotify.com/eg-ar/account/overview//,601,0,420
+1591046902082,10977,account over view-1,200,OK,Thread Group 1-17,text,true,,4153,201,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,10977,0,10877
+1591046901287,11783,account over view,200,OK,Thread Group 1-13,text,true,,5148,344,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,382,0,272
+1591046901287,382,account over view-0,302,Found,Thread Group 1-13,text,true,,994,143,20,20,https://www.spotify.com/eg-ar/account/overview//,382,0,272
+1591046901672,11398,account over view-1,200,OK,Thread Group 1-13,text,true,,4154,201,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,11398,0,11297
+1591046901461,11614,account over view,200,OK,Thread Group 1-1,text,true,,5149,344,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,356,0,258
+1591046901461,356,account over view-0,302,Found,Thread Group 1-1,text,true,,994,143,20,20,https://www.spotify.com/eg-ar/account/overview//,356,0,258
+1591046901818,11257,account over view-1,200,OK,Thread Group 1-1,text,true,,4155,201,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,11257,0,11151
+1591046901549,11530,account over view,200,OK,Thread Group 1-6,text,true,,5148,344,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,269,0,171
+1591046901549,269,account over view-0,302,Found,Thread Group 1-6,text,true,,994,143,20,20,https://www.spotify.com/eg-ar/account/overview//,269,0,171
+1591046901819,11260,account over view-1,200,OK,Thread Group 1-6,text,true,,4154,201,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,11260,0,11160
+1591046901460,11620,account over view,200,OK,Thread Group 1-20,text,true,,5149,344,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,290,0,179
+1591046901460,290,account over view-0,302,Found,Thread Group 1-20,text,true,,994,143,20,20,https://www.spotify.com/eg-ar/account/overview//,290,0,179
+1591046901751,11329,account over view-1,200,OK,Thread Group 1-20,text,true,,4155,201,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,11329,0,11237
+1591046901207,11880,account over view,200,OK,Thread Group 1-3,text,true,,5147,344,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,574,0,443
+1591046901207,574,account over view-0,302,Found,Thread Group 1-3,text,true,,994,143,20,20,https://www.spotify.com/eg-ar/account/overview//,574,0,443
+1591046901782,11305,account over view-1,200,OK,Thread Group 1-3,text,true,,4153,201,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,11305,0,11206
+1591046901461,11626,account over view,200,OK,Thread Group 1-7,text,true,,5149,344,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,356,0,248
+1591046901461,356,account over view-0,302,Found,Thread Group 1-7,text,true,,994,143,20,20,https://www.spotify.com/eg-ar/account/overview//,356,0,248
+1591046901818,11269,account over view-1,200,OK,Thread Group 1-7,text,true,,4155,201,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,11269,0,11171
+1591046901486,11604,account over view,200,OK,Thread Group 1-18,text,true,,5148,344,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,264,0,164
+1591046901486,264,account over view-0,302,Found,Thread Group 1-18,text,true,,994,143,20,20,https://www.spotify.com/eg-ar/account/overview//,264,0,164
+1591046901751,11339,account over view-1,200,OK,Thread Group 1-18,text,true,,4154,201,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,11339,0,11248
+1591046901317,11783,account over view,200,OK,Thread Group 1-10,text,true,,5148,344,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,382,0,262
+1591046901268,11832,account over view,200,OK,Thread Group 1-12,text,true,,5146,344,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,513,0,421
+1591046901317,382,account over view-0,302,Found,Thread Group 1-10,text,true,,994,143,20,20,https://www.spotify.com/eg-ar/account/overview//,382,0,262
+1591046901268,513,account over view-0,302,Found,Thread Group 1-12,text,true,,994,143,20,20,https://www.spotify.com/eg-ar/account/overview//,513,0,421
+1591046901700,11400,account over view-1,200,OK,Thread Group 1-10,text,true,,4154,201,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,11400,0,11307
+1591046901782,11318,account over view-1,200,OK,Thread Group 1-12,text,true,,4152,201,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,11318,0,11217
+1591046901471,11634,account over view,200,OK,Thread Group 1-16,text,true,,5149,344,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,347,0,220
+1591046901471,347,account over view-0,302,Found,Thread Group 1-16,text,true,,994,143,20,20,https://www.spotify.com/eg-ar/account/overview//,347,0,220
+1591046901819,11286,account over view-1,200,OK,Thread Group 1-16,text,true,,4155,201,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,11286,0,11188
+1591046901217,11889,account over view,200,OK,Thread Group 1-14,text,true,,5147,344,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,462,0,352
+1591046901217,462,account over view-0,302,Found,Thread Group 1-14,text,true,,994,143,20,20,https://www.spotify.com/eg-ar/account/overview//,462,0,352
+1591046901680,11426,account over view-1,200,OK,Thread Group 1-14,text,true,,4153,201,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,11426,0,11328
+1591046901486,11651,account over view,200,OK,Thread Group 1-15,text,true,,5149,344,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,295,0,193
+1591046901476,11661,account over view,200,OK,Thread Group 1-8,text,true,,5148,344,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,425,0,234
+1591046901486,295,account over view-0,302,Found,Thread Group 1-15,text,true,,994,143,20,20,https://www.spotify.com/eg-ar/account/overview//,295,0,193
+1591046901476,426,account over view-0,302,Found,Thread Group 1-8,text,true,,994,143,20,20,https://www.spotify.com/eg-ar/account/overview//,425,0,234
+1591046901782,11355,account over view-1,200,OK,Thread Group 1-15,text,true,,4155,201,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,11355,0,11251
+1591046901904,11233,account over view-1,200,OK,Thread Group 1-8,text,true,,4154,201,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,11233,0,11125
+1591046901465,11675,account over view,200,OK,Thread Group 1-9,text,true,,5148,344,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,264,0,165
+1591046901465,264,account over view-0,302,Found,Thread Group 1-9,text,true,,994,143,20,20,https://www.spotify.com/eg-ar/account/overview//,264,0,165
+1591046901730,11410,account over view-1,200,OK,Thread Group 1-9,text,true,,4154,201,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,11410,0,11303
+1591046901260,11889,account over view,200,OK,Thread Group 1-11,text,true,,5149,344,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,459,0,322
+1591046901260,459,account over view-0,302,Found,Thread Group 1-11,text,true,,994,143,20,20,https://www.spotify.com/eg-ar/account/overview//,459,0,322
+1591046901721,11428,account over view-1,200,OK,Thread Group 1-11,text,true,,4155,201,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,11428,0,11318
+1591046901475,11711,account over view,200,OK,Thread Group 1-19,text,true,,5148,344,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,344,0,225
+1591046901475,344,account over view-0,302,Found,Thread Group 1-19,text,true,,994,143,20,20,https://www.spotify.com/eg-ar/account/overview//,344,0,225
+1591046901820,11366,account over view-1,200,OK,Thread Group 1-19,text,true,,4154,201,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,11366,0,11246
+1591046901466,11721,account over view,200,OK,Thread Group 1-4,text,true,,5147,344,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,264,0,164
+1591046901466,264,account over view-0,302,Found,Thread Group 1-4,text,true,,994,143,20,20,https://www.spotify.com/eg-ar/account/overview//,264,0,164
+1591046901731,11456,account over view-1,200,OK,Thread Group 1-4,text,true,,4153,201,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,11456,0,11338
+1591046901521,11678,account over view,200,OK,Thread Group 1-5,text,true,,5148,344,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,277,0,170
+1591046901521,277,account over view-0,302,Found,Thread Group 1-5,text,true,,994,143,20,20,https://www.spotify.com/eg-ar/account/overview//,277,0,170
+1591046901799,11400,account over view-1,200,OK,Thread Group 1-5,text,true,,4154,201,20,20,https://accounts.spotify.com/login?continue=https%3A%2F%2Fwww.spotify.com%2Feg-ar%2Faccount%2Foverview%2F,11400,0,11280
+1591046913089,726,web player,200,OK,Thread Group 1-7,text,true,,32249,121,20,20,https://open.spotify.com//,456,0,287
+1591046913108,718,web player,200,OK,Thread Group 1-14,text,true,,32251,121,20,20,https://open.spotify.com//,437,0,268
+1591046913103,733,web player,200,OK,Thread Group 1-12,text,true,,32250,121,20,20,https://open.spotify.com//,448,0,272
+1591046913081,756,web player,200,OK,Thread Group 1-20,text,true,,32250,121,20,20,https://open.spotify.com//,480,0,299
+1591046913060,779,web player,200,OK,Thread Group 1-2,text,true,,32249,121,20,20,https://open.spotify.com//,498,0,320
+1591046913081,768,web player,200,OK,Thread Group 1-6,text,true,,32250,121,20,20,https://open.spotify.com//,515,0,307
+1591046913077,775,web player,200,OK,Thread Group 1-1,text,true,,32249,121,20,20,https://open.spotify.com//,519,0,309
+1591046913188,665,web player,200,OK,Thread Group 1-19,text,true,,32250,121,20,20,https://open.spotify.com//,422,0,251
+1591046913061,798,web player,200,OK,Thread Group 1-17,text,true,,32250,121,20,20,https://open.spotify.com//,591,0,338
+1591046913071,792,web player,200,OK,Thread Group 1-13,text,true,,32244,121,20,20,https://open.spotify.com//,561,0,329
+1591046913189,674,web player,200,OK,Thread Group 1-4,text,true,,32250,121,20,20,https://open.spotify.com//,471,0,250
+1591046913142,734,web player,200,OK,Thread Group 1-9,text,true,,32249,121,20,20,https://open.spotify.com//,560,0,268
+1591046913201,684,web player,200,OK,Thread Group 1-5,text,true,,32250,121,20,20,https://open.spotify.com//,513,0,268
+1591046913107,815,web player,200,OK,Thread Group 1-16,text,true,,32250,121,20,20,https://open.spotify.com//,606,0,352
+1591046913089,833,web player,200,OK,Thread Group 1-3,text,true,,32250,121,20,20,https://open.spotify.com//,622,0,360
+1591046913103,824,web player,200,OK,Thread Group 1-10,text,true,,32250,121,20,20,https://open.spotify.com//,612,0,356
+1591046913092,835,web player,200,OK,Thread Group 1-18,text,true,,32251,121,20,20,https://open.spotify.com//,622,0,367
+1591046913139,800,web player,200,OK,Thread Group 1-8,text,true,,32250,121,20,20,https://open.spotify.com//,584,0,329
+1591046913139,800,web player,200,OK,Thread Group 1-15,text,true,,32251,121,20,20,https://open.spotify.com//,582,0,329
+1591046913151,792,web player,200,OK,Thread Group 1-11,text,true,,32250,121,20,20,https://open.spotify.com//,605,0,338
+1591046913864,616,Go premium,200,OK,Thread Group 1-4,text,true,,6692,471,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,365,0,220
+1591046913864,365,Go premium-0,302,Found,Thread Group 1-4,text,true,,2463,247,20,20,https://www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m//,365,0,220
+1591046914229,251,Go premium-1,200,OK,Thread Group 1-4,text,true,,4229,224,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,251,0,150
+1591046913840,693,Go premium,200,OK,Thread Group 1-2,text,true,,6688,471,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,367,0,234
+1591046913840,367,Go premium-0,302,Found,Thread Group 1-2,text,true,,2459,247,20,20,https://www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m//,367,0,234
+1591046914207,326,Go premium-1,200,OK,Thread Group 1-2,text,true,,4229,224,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,326,0,196
+1591046913850,683,Go premium,200,OK,Thread Group 1-6,text,true,,6689,471,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,411,0,250
+1591046913850,411,Go premium-0,302,Found,Thread Group 1-6,text,true,,2459,247,20,20,https://www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m//,411,0,250
+1591046914261,272,Go premium-1,200,OK,Thread Group 1-6,text,true,,4230,224,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,272,0,163
+1591046913886,654,Go premium,200,OK,Thread Group 1-5,text,true,,6689,471,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,349,0,214
+1591046913886,349,Go premium-0,302,Found,Thread Group 1-5,text,true,,2459,247,20,20,https://www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m//,349,0,214
+1591046914235,305,Go premium-1,200,OK,Thread Group 1-5,text,true,,4230,224,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,305,0,187
+1591046913838,714,Go premium,200,OK,Thread Group 1-20,text,true,,6693,471,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,332,0,184
+1591046913838,332,Go premium-0,302,Found,Thread Group 1-20,text,true,,2463,247,20,20,https://www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m//,332,0,184
+1591046914170,382,Go premium-1,200,OK,Thread Group 1-20,text,true,,4230,224,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,382,0,252
+1591046913827,742,Go premium,200,OK,Thread Group 1-14,text,true,,6689,471,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,448,0,320
+1591046913827,448,Go premium-0,302,Found,Thread Group 1-14,text,true,,2459,247,20,20,https://www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m//,448,0,320
+1591046914275,294,Go premium-1,200,OK,Thread Group 1-14,text,true,,4230,224,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,294,0,184
+1591046913864,716,Go premium,200,OK,Thread Group 1-13,text,true,,6690,471,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,445,0,328
+1591046913864,445,Go premium-0,302,Found,Thread Group 1-13,text,true,,2461,247,20,20,https://www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m//,445,0,328
+1591046914309,271,Go premium-1,200,OK,Thread Group 1-13,text,true,,4229,224,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,271,0,168
+1591046913923,668,Go premium,200,OK,Thread Group 1-16,text,true,,6692,471,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,314,0,177
+1591046913923,314,Go premium-0,302,Found,Thread Group 1-16,text,true,,2463,247,20,20,https://www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m//,314,0,177
+1591046914237,354,Go premium-1,200,OK,Thread Group 1-16,text,true,,4229,224,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,354,0,258
+1591046913860,732,Go premium,200,OK,Thread Group 1-17,text,true,,6689,471,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,462,0,333
+1591046913860,462,Go premium-0,302,Found,Thread Group 1-17,text,true,,2459,247,20,20,https://www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m//,462,0,333
+1591046914323,269,Go premium-1,200,OK,Thread Group 1-17,text,true,,4230,224,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,269,0,159
+1591046913923,700,Go premium,200,OK,Thread Group 1-3,text,true,,6689,471,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,352,0,228
+1591046913923,352,Go premium-0,302,Found,Thread Group 1-3,text,true,,2459,247,20,20,https://www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m//,352,0,228
+1591046914275,348,Go premium-1,200,OK,Thread Group 1-3,text,true,,4230,224,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,348,0,220
+1591046913876,766,Go premium,200,OK,Thread Group 1-9,text,true,,6689,471,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,385,0,225
+1591046913876,385,Go premium-0,302,Found,Thread Group 1-9,text,true,,2459,247,20,20,https://www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m//,385,0,225
+1591046914261,381,Go premium-1,200,OK,Thread Group 1-9,text,true,,4230,224,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,381,0,279
+1591046913944,698,Go premium,200,OK,Thread Group 1-11,text,true,,6690,471,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,363,0,242
+1591046913944,363,Go premium-0,302,Found,Thread Group 1-11,text,true,,2459,247,20,20,https://www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m//,363,0,242
+1591046914307,335,Go premium-1,200,OK,Thread Group 1-11,text,true,,4231,224,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,335,0,214
+1591046913853,807,Go premium,200,OK,Thread Group 1-1,text,true,,6691,471,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,430,0,298
+1591046913853,430,Go premium-0,302,Found,Thread Group 1-1,text,true,,2461,247,20,20,https://www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m//,430,0,298
+1591046914283,377,Go premium-1,200,OK,Thread Group 1-1,text,true,,4230,224,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,377,0,257
+1591046913837,833,Go premium,200,OK,Thread Group 1-12,text,true,,6689,471,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,468,0,334
+1591046913837,468,Go premium-0,302,Found,Thread Group 1-12,text,true,,2459,247,20,20,https://www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m//,468,0,334
+1591046914305,365,Go premium-1,200,OK,Thread Group 1-12,text,true,,4230,224,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,365,0,264
+1591046913928,745,Go premium,200,OK,Thread Group 1-18,text,true,,6686,471,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,398,0,258
+1591046913928,398,Go premium-0,302,Found,Thread Group 1-18,text,true,,2459,247,20,20,https://www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m//,398,0,258
+1591046914326,347,Go premium-1,200,OK,Thread Group 1-18,text,true,,4227,224,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,347,0,255
+1591046913940,749,Go premium,200,OK,Thread Group 1-15,text,true,,6690,471,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,343,0,207
+1591046913940,343,Go premium-0,302,Found,Thread Group 1-15,text,true,,2459,247,20,20,https://www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m//,343,0,207
+1591046914283,406,Go premium-1,200,OK,Thread Group 1-15,text,true,,4231,224,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,406,0,298
+1591046913853,842,Go premium,200,OK,Thread Group 1-19,text,true,,6689,471,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,510,0,390
+1591046913853,510,Go premium-0,302,Found,Thread Group 1-19,text,true,,2459,247,20,20,https://www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m//,510,0,390
+1591046914363,332,Go premium-1,200,OK,Thread Group 1-19,text,true,,4230,224,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,332,0,208
+1591046913928,786,Go premium,200,OK,Thread Group 1-10,text,true,,6689,471,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,412,0,300
+1591046913928,412,Go premium-0,302,Found,Thread Group 1-10,text,true,,2459,247,20,20,https://www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m//,412,0,300
+1591046914340,374,Go premium-1,200,OK,Thread Group 1-10,text,true,,4230,224,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,374,0,278
+1591046913940,793,Go premium,200,OK,Thread Group 1-8,text,true,,6690,471,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,423,0,304
+1591046913940,423,Go premium-0,302,Found,Thread Group 1-8,text,true,,2461,247,20,20,https://www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m//,423,0,304
+1591046914363,370,Go premium-1,200,OK,Thread Group 1-8,text,true,,4229,224,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,370,0,259
+1591046913816,998,Go premium,200,OK,Thread Group 1-7,text,true,,6690,471,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,695,0,537
+1591046913816,695,Go premium-0,302,Found,Thread Group 1-7,text,true,,2461,247,20,20,https://www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m//,695,0,537
+1591046914511,303,Go premium-1,200,OK,Thread Group 1-7,text,true,,4229,224,20,20,https://accounts.spotify.com/login/?_locale=en-EG&continue=https%3A//www.spotify.com/eg-en/purchase/offer/2020-midyear-trial-3m/,303,0,177
+1591046914624,1022,Sign up,200,OK,Thread Group 1-3,text,true,,71773,1008,20,20,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,314,0,166
+1591046914624,314,Sign up-0,302,Found,Thread Group 1-3,,true,,1177,264,20,20,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/,314,0,166
+1591046914939,277,Sign up-1,302,Found,Thread Group 1-3,,true,,1467,244,20,20,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=1,277,0,156
+1591046915216,98,Sign up-2,302,Found,Thread Group 1-3,,true,,1477,250,20,20,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=2,98,0,0
+1591046915314,332,Sign up-3,200,OK,Thread Group 1-3,text,true,,67652,250,20,20,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,147,0,0
+1591046914481,1176,Sign up,200,OK,Thread Group 1-4,text,true,,71773,1008,19,19,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,275,0,155
+1591046914481,275,Sign up-0,302,Found,Thread Group 1-4,,true,,1177,264,19,19,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/,275,0,155
+1591046914757,429,Sign up-1,302,Found,Thread Group 1-4,,true,,1467,244,19,19,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=1,429,0,323
+1591046915186,128,Sign up-2,302,Found,Thread Group 1-4,,true,,1477,250,19,19,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=2,128,0,0
+1591046915314,343,Sign up-3,200,OK,Thread Group 1-4,text,true,,67652,250,19,19,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,147,0,0
+1591046914553,1148,Sign up,200,OK,Thread Group 1-20,text,true,,71773,1008,18,18,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,311,0,180
+1591046914553,311,Sign up-0,302,Found,Thread Group 1-20,,true,,1177,264,18,18,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/,311,0,180
+1591046914865,376,Sign up-1,302,Found,Thread Group 1-20,,true,,1467,244,18,18,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=1,376,0,274
+1591046915242,118,Sign up-2,302,Found,Thread Group 1-20,,true,,1477,250,18,18,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=2,118,0,0
+1591046915360,341,Sign up-3,200,OK,Thread Group 1-20,text,true,,67652,250,18,18,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,151,0,0
+1591046914541,1251,Sign up,200,OK,Thread Group 1-5,text,true,,71773,1008,17,17,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,398,0,273
+1591046914541,398,Sign up-0,302,Found,Thread Group 1-5,,true,,1177,264,17,17,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/,398,0,273
+1591046914940,361,Sign up-1,302,Found,Thread Group 1-5,,true,,1467,244,17,17,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=1,361,0,245
+1591046915301,117,Sign up-2,302,Found,Thread Group 1-5,,true,,1477,250,17,17,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=2,117,0,0
+1591046915418,374,Sign up-3,200,OK,Thread Group 1-5,text,true,,67652,250,17,17,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,149,0,0
+1591046914661,1201,Sign up,200,OK,Thread Group 1-1,text,true,,71773,1008,16,16,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,321,0,204
+1591046914661,321,Sign up-0,302,Found,Thread Group 1-1,,true,,1177,264,16,16,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/,321,0,204
+1591046914983,302,Sign up-1,302,Found,Thread Group 1-1,,true,,1467,244,16,16,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=1,302,0,180
+1591046915285,107,Sign up-2,302,Found,Thread Group 1-1,,true,,1477,250,16,16,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=2,107,0,0
+1591046915392,470,Sign up-3,200,OK,Thread Group 1-1,text,true,,67652,250,16,16,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,155,0,0
+1591046914671,1210,Sign up,200,OK,Thread Group 1-12,text,true,,71773,1008,15,15,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,269,0,164
+1591046914671,269,Sign up-0,302,Found,Thread Group 1-12,,true,,1177,264,15,15,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/,269,0,164
+1591046914941,394,Sign up-1,302,Found,Thread Group 1-12,,true,,1467,244,15,15,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=1,394,0,280
+1591046915335,114,Sign up-2,302,Found,Thread Group 1-12,,true,,1477,250,15,15,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=2,114,0,0
+1591046915449,432,Sign up-3,200,OK,Thread Group 1-12,text,true,,67652,250,15,15,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,130,0,0
+1591046914674,1355,Sign up,200,OK,Thread Group 1-18,text,true,,71773,1008,14,14,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,307,0,161
+1591046914674,307,Sign up-0,302,Found,Thread Group 1-18,,true,,1177,264,14,14,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/,307,0,161
+1591046914982,409,Sign up-1,302,Found,Thread Group 1-18,,true,,1467,244,14,14,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=1,409,0,300
+1591046915391,120,Sign up-2,302,Found,Thread Group 1-18,,true,,1477,250,14,14,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=2,120,0,0
+1591046915512,517,Sign up-3,200,OK,Thread Group 1-18,text,true,,67652,250,14,14,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,165,0,0
+1591046914734,1327,Sign up,200,OK,Thread Group 1-8,text,true,,71773,1008,13,13,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,306,0,172
+1591046914734,306,Sign up-0,302,Found,Thread Group 1-8,,true,,1177,264,13,13,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/,306,0,172
+1591046915041,332,Sign up-1,302,Found,Thread Group 1-8,,true,,1467,244,13,13,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=1,332,0,223
+1591046915373,105,Sign up-2,302,Found,Thread Group 1-8,,true,,1477,250,13,13,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=2,105,0,0
+1591046915478,583,Sign up-3,200,OK,Thread Group 1-8,text,true,,67652,250,13,13,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,191,0,0
+1591046914534,1613,Sign up,200,OK,Thread Group 1-6,text,true,,71773,1008,12,12,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,506,0,350
+1591046914534,506,Sign up-0,302,Found,Thread Group 1-6,,true,,1177,264,12,12,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/,506,0,350
+1591046915041,377,Sign up-1,302,Found,Thread Group 1-6,,true,,1467,244,12,12,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=1,377,0,266
+1591046915418,129,Sign up-2,302,Found,Thread Group 1-6,,true,,1477,250,12,12,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=2,129,0,0
+1591046915547,600,Sign up-3,200,OK,Thread Group 1-6,text,true,,67652,250,12,12,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,215,0,0
+1591046914570,1596,Sign up,200,OK,Thread Group 1-14,text,true,,71773,1008,11,11,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,295,0,164
+1591046914570,295,Sign up-0,302,Found,Thread Group 1-14,,true,,1177,264,11,11,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/,295,0,164
+1591046914866,494,Sign up-1,302,Found,Thread Group 1-14,,true,,1467,244,11,11,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=1,494,0,350
+1591046915360,145,Sign up-2,302,Found,Thread Group 1-14,,true,,1477,250,11,11,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=2,145,0,0
+1591046915505,661,Sign up-3,200,OK,Thread Group 1-14,text,true,,67652,250,11,11,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,220,0,0
+1591046914593,1613,Sign up,200,OK,Thread Group 1-17,text,true,,71773,1008,10,10,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,419,0,291
+1591046914593,419,Sign up-0,302,Found,Thread Group 1-17,,true,,1177,264,10,10,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/,419,0,291
+1591046915014,453,Sign up-1,302,Found,Thread Group 1-17,,true,,1467,244,10,10,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=1,453,0,344
+1591046915467,111,Sign up-2,302,Found,Thread Group 1-17,,true,,1477,250,10,10,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=2,111,0,0
+1591046915578,628,Sign up-3,200,OK,Thread Group 1-17,text,true,,67652,250,10,10,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,214,0,0
+1591046914689,1530,Sign up,200,OK,Thread Group 1-15,text,true,,71773,1008,9,9,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,395,0,300
+1591046914689,395,Sign up-0,302,Found,Thread Group 1-15,,true,,1177,264,9,9,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/,395,0,300
+1591046915085,388,Sign up-1,302,Found,Thread Group 1-15,,true,,1467,244,9,9,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=1,388,0,288
+1591046915473,131,Sign up-2,302,Found,Thread Group 1-15,,true,,1477,250,9,9,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=2,131,0,0
+1591046915604,615,Sign up-3,200,OK,Thread Group 1-15,text,true,,67652,250,9,9,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,208,0,0
+1591046914581,1651,Sign up,200,OK,Thread Group 1-13,text,true,,71773,1008,8,8,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,459,0,315
+1591046914581,459,Sign up-0,302,Found,Thread Group 1-13,,true,,1177,264,8,8,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/,459,0,315
+1591046915041,420,Sign up-1,302,Found,Thread Group 1-13,,true,,1467,244,8,8,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=1,420,0,272
+1591046915461,149,Sign up-2,302,Found,Thread Group 1-13,,true,,1477,250,8,8,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=2,149,0,0
+1591046915610,622,Sign up-3,200,OK,Thread Group 1-13,text,true,,67652,250,8,8,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,215,0,0
+1591046914592,1686,Sign up,200,OK,Thread Group 1-16,text,true,,71773,1008,7,7,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,421,0,313
+1591046914592,421,Sign up-0,302,Found,Thread Group 1-16,,true,,1177,264,7,7,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/,421,0,313
+1591046915014,441,Sign up-1,302,Found,Thread Group 1-16,,true,,1467,244,7,7,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=1,441,0,344
+1591046915456,165,Sign up-2,302,Found,Thread Group 1-16,,true,,1477,250,7,7,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=2,165,0,0
+1591046915621,657,Sign up-3,200,OK,Thread Group 1-16,text,true,,67652,250,7,7,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,222,0,0
+1591046914643,1649,Sign up,200,OK,Thread Group 1-9,text,true,,71773,1008,6,6,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,425,0,263
+1591046914643,425,Sign up-0,302,Found,Thread Group 1-9,,true,,1177,264,6,6,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/,425,0,263
+1591046915069,409,Sign up-1,302,Found,Thread Group 1-9,,true,,1467,244,6,6,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=1,409,0,266
+1591046915478,175,Sign up-2,302,Found,Thread Group 1-9,,true,,1477,250,6,6,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=2,175,0,0
+1591046915653,639,Sign up-3,200,OK,Thread Group 1-9,text,true,,67652,250,6,6,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,259,0,0
+1591046914534,1777,Sign up,200,OK,Thread Group 1-2,text,true,,71773,1008,5,5,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,550,0,432
+1591046914534,550,Sign up-0,302,Found,Thread Group 1-2,,true,,1177,264,5,5,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/,550,0,432
+1591046915085,409,Sign up-1,302,Found,Thread Group 1-2,,true,,1467,244,5,5,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=1,409,0,265
+1591046915494,170,Sign up-2,302,Found,Thread Group 1-2,,true,,1477,250,5,5,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=2,170,0,0
+1591046915664,647,Sign up-3,200,OK,Thread Group 1-2,text,true,,67652,250,5,5,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,285,0,0
+1591046914715,1621,Sign up,200,OK,Thread Group 1-10,text,true,,71773,1008,4,4,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,297,0,181
+1591046914715,297,Sign up-0,302,Found,Thread Group 1-10,,true,,1177,264,4,4,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/,297,0,181
+1591046915013,549,Sign up-1,302,Found,Thread Group 1-10,,true,,1467,244,4,4,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=1,549,0,427
+1591046915562,157,Sign up-2,302,Found,Thread Group 1-10,,true,,1477,250,4,4,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=2,157,0,0
+1591046915719,617,Sign up-3,200,OK,Thread Group 1-10,text,true,,67652,250,4,4,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,253,0,0
+1591046914815,1534,Sign up,200,OK,Thread Group 1-7,text,true,,71773,1008,3,3,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,401,0,268
+1591046914815,401,Sign up-0,302,Found,Thread Group 1-7,,true,,1177,264,3,3,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/,401,0,268
+1591046915217,372,Sign up-1,302,Found,Thread Group 1-7,,true,,1467,244,3,3,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=1,372,0,243
+1591046915589,179,Sign up-2,302,Found,Thread Group 1-7,,true,,1477,250,3,3,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=2,179,0,0
+1591046915768,581,Sign up-3,200,OK,Thread Group 1-7,text,true,,67652,250,3,3,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,232,0,0
+1591046914697,1660,Sign up,200,OK,Thread Group 1-19,text,true,,71773,1008,2,2,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,398,0,294
+1591046914697,398,Sign up-0,302,Found,Thread Group 1-19,,true,,1177,264,2,2,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/,398,0,294
+1591046915096,500,Sign up-1,302,Found,Thread Group 1-19,,true,,1467,244,2,2,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=1,500,0,344
+1591046915596,190,Sign up-2,302,Found,Thread Group 1-19,,true,,1477,250,2,2,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=2,190,0,0
+1591046915786,571,Sign up-3,200,OK,Thread Group 1-19,text,true,,67652,250,2,2,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,262,0,0
+1591046914643,1790,Sign up,200,OK,Thread Group 1-11,text,true,,71773,1008,1,1,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,425,0,323
+1591046914643,425,Sign up-0,302,Found,Thread Group 1-11,,true,,1177,264,1,1,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/,425,0,323
+1591046915069,558,Sign up-1,302,Found,Thread Group 1-11,,true,,1467,244,1,1,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=1,558,0,379
+1591046915627,222,Sign up-2,302,Found,Thread Group 1-11,,true,,1477,250,1,1,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=2,222,0,0
+1591046915849,584,Sign up-3,200,OK,Thread Group 1-11,text,true,,67652,250,1,1,https://www.spotify.com/eg-en/signup/?forward_url=https%3A%2F%2Fopen.spotify.com%2F%2F%3Fforward_url%3Dhttps%3A%2F%2Fopen.spotify.com%2F%2F&sp_t_counter=3,286,0,0
